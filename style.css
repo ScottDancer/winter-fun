@@ -25,6 +25,11 @@ main {
   margin: auto;
 }
 
+.top-pic-right {
+  max-height:400px;
+  margin: auto;
+}
+
 .pic-box {
   display: block;
   padding: .05em;
