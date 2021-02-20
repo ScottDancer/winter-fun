@@ -33,6 +33,13 @@ footer {
   bottom: 0;
 
 }
+
+figcaption{
+  text-align: right;
+  margin-right: 22px;
+  font-size: 10px;
+  color: #186485
+}
  
 a {
   color: #186485;
@@ -40,18 +47,30 @@ a {
 
 .top-pic-left {
   max-height:400px;
+  max-width: 600px;
   margin: auto;
   padding-top: 57px;
   padding-left: 20px;
   padding-right: 20px;
+  filter: none;
+}
+
+.top-pic-left:hover {
+  filter:grayscale();
 }
 
 .top-pic-right {
   max-height:400px;
+  max-width: 600px;
   margin: auto;
   padding-top: 57px;
   padding-left: 20px;
   padding-right: 20px;
+  filter: none;
+}
+
+.top-pic-right:hover {
+  filter:grayscale();
 }
 
 .pic-box {
