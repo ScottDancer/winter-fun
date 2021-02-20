@@ -1,6 +1,5 @@
 body {
   background: #857f0b;
-  /* color: #186485; */
 }
 header{
   background: #042938;
@@ -80,6 +79,7 @@ a {
   padding: .05em;
 }
 .with-text{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   font-weight: bold;
   line-height: 120%;
   padding: 10em;
